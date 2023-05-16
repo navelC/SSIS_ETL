@@ -5,6 +5,15 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Integration Services Project1", "Integration Services Project1\Integration Services Project1.dtproj", "{E58AF5B3-3FE5-4E47-AE42-34573C57E7BA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{00C8E32E-4807-4DCA-93AC-E8FB32D7B35E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\data\Loca.xlsx = ..\..\..\Documents\data\Loca.xlsx
+		..\..\..\Documents\data\Store.xlsx = ..\..\..\Documents\data\Store.xlsx
+		..\..\..\Documents\data\Supplier.xlsx = ..\..\..\Documents\data\Supplier.xlsx
+		..\..\..\Documents\data\Times.xlsx = ..\..\..\Documents\data\Times.xlsx
+		..\..\..\Documents\data\Work.xlsx = ..\..\..\Documents\data\Work.xlsx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default

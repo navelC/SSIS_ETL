@@ -11,112 +11,28 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="39"
-  DTS:VersionGUID="{BB656C97-5204-4417-B281-C4CB7FB99A9F}">
+  DTS:VersionBuild="54"
+  DTS:VersionGUID="{AC260FCD-7F85-4533-8337-43FE3120C42E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{1F735219-4C14-4240-982D-064467F80550}"
+      DTS:DTSID="{236513CF-216B-40D7-B7B8-AF49F906E201}"
       DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Category.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Times.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{4CCDCD3C-9983-497A-BDE2-B2DC35931466}"
+      DTS:DTSID="{87C5DF62-BF0F-4176-BBA5-74AF0A441FA1}"
       DTS:ObjectName="Excel Connection Manager 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Location.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 2]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{69AD23B3-CC3A-4621-8F2E-B84AD1465876}"
-      DTS:ObjectName="Excel Connection Manager 2">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Supplier.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 3]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{C161C472-591A-4DCD-8F0D-021D286F48AE}"
-      DTS:ObjectName="Excel Connection Manager 3">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Store.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 4]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{28E98F8B-DF30-4F7D-B7B1-B2BCE0F46E9C}"
-      DTS:ObjectName="Excel Connection Manager 4">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Staff.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 5]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{90916723-D4E0-41A4-93FE-CB4EAB9CBA61}"
-      DTS:ObjectName="Excel Connection Manager 5">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Time.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 6]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{FB271ACA-0672-4EDD-BEB1-2D650548B33E}"
-      DTS:ObjectName="Excel Connection Manager 6">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Product.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 7]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{91026386-10DC-4CED-B97E-A3D46497D843}"
-      DTS:ObjectName="Excel Connection Manager 7">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Loca.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 8]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{FA7D1A12-9BDE-45D4-BBEC-26AE7CE22846}"
-      DTS:ObjectName="Excel Connection Manager 8">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
@@ -125,15 +41,39 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 9]"
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 2]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{F030F0AB-71F8-4B14-BC59-E95BE72C4C9A}"
-      DTS:ObjectName="Excel Connection Manager 9">
+      DTS:DTSID="{EAF1F8E1-1C6A-4B9F-819C-81A50759D1A8}"
+      DTS:ObjectName="Excel Connection Manager 2">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Sales.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Loca.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 3]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{7ED05FB2-F6BD-490B-9FCB-E87D966D4CD9}"
+      DTS:ObjectName="Excel Connection Manager 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Supplier.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 4]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{26D3F37E-3882-46B5-9966-164D952607E8}"
+      DTS:ObjectName="Excel Connection Manager 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\boong\Documents\data\Store.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -166,6 +106,16 @@
           DTS:ConnectionString="Data Source=.;Initial Catalog=NORTHWND_DW;Integrated Security=True;Application Name=SSIS-Package-{BEE7DB12-AAD8-4372-A7E5-175F39B3C995}LocalHost.NORTHWND_DW;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.SHmart]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{397E5A5F-7B8A-4087-9D98-8035ECCC3D1E}"
+      DTS:ObjectName="LocalHost.SHmart">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=.;Initial Catalog=SHmart;Integrated Security=True;Application Name=SSIS-Package-{397E5A5F-7B8A-4087-9D98-8035ECCC3D1E}LocalHost.SHmart;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
@@ -173,7 +123,6 @@
       DTS:refId="Package\Data Flow Category"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{723F66A1-04CD-4D1C-B9D9-78949ADB39B5}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -234,18 +183,18 @@
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Category\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of CategoryID]"
-                      cachedDataType="r8"
-                      cachedName="Copy of CategoryID"
+                      refId="Package\Data Flow Category\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[id]"
+                      cachedDataType="i4"
+                      cachedName="id"
                       externalMetadataColumnId="Package\Data Flow Category\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CategoryID]"
-                      lineageId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CategoryID]" />
+                      lineageId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].Columns[id]" />
                     <inputColumn
-                      refId="Package\Data Flow Category\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of CategoryName]"
+                      refId="Package\Data Flow Category\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[categoryName]"
                       cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="Copy of CategoryName"
+                      cachedLength="25"
+                      cachedName="categoryName"
                       externalMetadataColumnId="Package\Data Flow Category\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CateggoryName]"
-                      lineageId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CategoryName]" />
+                      lineageId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].Columns[categoryName]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -287,219 +236,115 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Category\Data Conversion"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="Data Conversion"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Data Flow Category\Data Conversion.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Category\Data Conversion.Inputs[Data Conversion Input].Columns[CategoryID]"
-                      cachedDataType="r8"
-                      cachedName="CategoryID"
-                      lineageId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].Columns[CategoryID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Category\Data Conversion.Inputs[Data Conversion Input].Columns[CategoryName]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="CategoryName"
-                      lineageId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].Columns[CategoryName]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\Data Flow Category\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CategoryID]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CategoryID]"
-                      name="Copy of CategoryID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].Columns[CategoryID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CategoryName]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="255"
-                      lineageId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CategoryName]"
-                      name="Copy of CategoryName"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].Columns[CategoryName]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\Data Flow Category\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Category\Excel Source"
-              componentClassID="Microsoft.ExcelSource"
-              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Excel Source"
-              name="Excel Source"
+              refId="Package\Data Flow Category\ADO NET Source"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="ADO NET Source"
               usesDispositions="true"
-              version="1">
+              version="4">
               <properties>
                 <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
                   dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">Sheet1$</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
                   dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."category"</property>
                 <property
                   dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
+                  description="Specify the mode to retrieve external column information"
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
                 <property
                   dataType="System.String"
-                  description="The mapping from parameters in the SQL command to variables."
-                  name="ParameterMapping"></property>
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Category\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
+                  refId="Package\Data Flow Category\ADO NET Source.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.SHmart]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.SHmart]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output]"
-                  name="Excel Source Output">
+                  refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].Columns[CategoryID]"
-                      dataType="r8"
+                      refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].Columns[id]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].ExternalColumns[CategoryID]"
-                      lineageId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].Columns[CategoryID]"
-                      name="CategoryID"
+                      externalMetadataColumnId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[id]"
+                      lineageId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].Columns[id]"
+                      name="id"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].Columns[CategoryName]"
+                      refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].Columns[categoryName]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].ExternalColumns[CategoryName]"
-                      length="255"
-                      lineageId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].Columns[CategoryName]"
-                      name="CategoryName"
+                      externalMetadataColumnId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[categoryName]"
+                      length="25"
+                      lineageId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].Columns[categoryName]"
+                      name="categoryName"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].ExternalColumns[CategoryID]"
-                      dataType="r8"
-                      name="CategoryID" />
+                      refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[id]"
+                      dataType="i4"
+                      name="id" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output].ExternalColumns[CategoryName]"
+                      refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[categoryName]"
                       dataType="wstr"
-                      length="255"
-                      name="CategoryName" />
+                      length="25"
+                      name="categoryName" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Error Output]"
+                  refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Error Output]"
                   isErrorOut="true"
-                  name="Excel Source Error Output">
+                  name="ADO NET Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Error Output].Columns[CategoryID]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Error Output].Columns[CategoryID]"
-                      name="CategoryID" />
-                    <outputColumn
-                      refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Error Output].Columns[CategoryName]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Error Output].Columns[CategoryName]"
-                      name="CategoryName" />
-                    <outputColumn
-                      refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[id]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[id]"
+                      name="id" />
+                    <outputColumn
+                      refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[categoryName]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[categoryName]"
+                      name="categoryName" />
+                    <outputColumn
+                      refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -510,15 +355,10 @@
           </components>
           <paths>
             <path
-              refId="Package\Data Flow Category.Paths[Data Conversion Output]"
+              refId="Package\Data Flow Category.Paths[ADO NET Source Output]"
               endId="Package\Data Flow Category\ADO NET Destination.Inputs[ADO NET Destination Input]"
-              name="Data Conversion Output"
-              startId="Package\Data Flow Category\Data Conversion.Outputs[Data Conversion Output]" />
-            <path
-              refId="Package\Data Flow Category.Paths[Excel Source Output]"
-              endId="Package\Data Flow Category\Data Conversion.Inputs[Data Conversion Input]"
-              name="Excel Source Output"
-              startId="Package\Data Flow Category\Excel Source.Outputs[Excel Source Output]" />
+              name="ADO NET Source Output"
+              startId="Package\Data Flow Category\ADO NET Source.Outputs[ADO NET Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -527,7 +367,6 @@
       DTS:refId="Package\Data Flow Location"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{bd5d16aa-f4e1-4b3e-b15d-da5bf5de7cd6}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -588,31 +427,31 @@
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[LocationID]"
+                      refId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of LocationID]"
                       cachedDataType="r8"
-                      cachedName="LocationID"
+                      cachedName="Copy of LocationID"
                       externalMetadataColumnId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[LocationID]"
-                      lineageId="Package\Data Flow Location\Excel Source.Outputs[Excel Source Output].Columns[LocationID]" />
+                      lineageId="Package\Data Flow Location\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of LocationID]" />
                     <inputColumn
-                      refId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[StreetName]"
+                      refId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of StreetName]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="StreetName"
+                      cachedName="Copy of StreetName"
                       externalMetadataColumnId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[StreetName]"
-                      lineageId="Package\Data Flow Location\Excel Source.Outputs[Excel Source Output].Columns[StreetName]" />
+                      lineageId="Package\Data Flow Location\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StreetName]" />
                     <inputColumn
-                      refId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[StreetNumber]"
+                      refId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of StreetNumber]"
                       cachedDataType="r8"
-                      cachedName="StreetNumber"
+                      cachedName="Copy of StreetNumber"
                       externalMetadataColumnId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[StreetNumber]"
-                      lineageId="Package\Data Flow Location\Excel Source.Outputs[Excel Source Output].Columns[StreetNumber]" />
+                      lineageId="Package\Data Flow Location\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StreetNumber]" />
                     <inputColumn
-                      refId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[CiyName]"
+                      refId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of CiyName]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="CiyName"
+                      cachedName="Copy of CiyName"
                       externalMetadataColumnId="Package\Data Flow Location\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CityName]"
-                      lineageId="Package\Data Flow Location\Excel Source.Outputs[Excel Source Output].Columns[CiyName]" />
+                      lineageId="Package\Data Flow Location\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CiyName]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -862,8 +701,8 @@ WHERE        (LocationID IS NOT NULL) and (StreetNumber IS NOT NULL)</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Location\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 7]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 7]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 2]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 2]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -997,7 +836,6 @@ WHERE        (LocationID IS NOT NULL) and (StreetNumber IS NOT NULL)</property>
       DTS:refId="Package\Data Flow Product"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{fb40d05a-6bf0-421c-a0e2-539ce2954733}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1058,37 +896,37 @@ WHERE        (LocationID IS NOT NULL) and (StreetNumber IS NOT NULL)</property>
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of ProductID]"
+                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[id]"
                       cachedDataType="i4"
-                      cachedName="Copy of ProductID"
+                      cachedName="id"
                       externalMetadataColumnId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ProductID]"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ProductID]" />
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[id]" />
                     <inputColumn
-                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of ProductName]"
+                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[productName]"
                       cachedDataType="wstr"
                       cachedLength="25"
-                      cachedName="Copy of ProductName"
+                      cachedName="productName"
                       externalMetadataColumnId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ProductName]"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ProductName]" />
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[productName]" />
                     <inputColumn
-                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of CategoryID]"
+                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[categoryID]"
                       cachedDataType="i4"
-                      cachedName="Copy of CategoryID"
+                      cachedName="categoryID"
                       externalMetadataColumnId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CategoryID]"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CategoryID]" />
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[categoryID]" />
                     <inputColumn
-                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of UnitPrice]"
-                      cachedDataType="r8"
-                      cachedName="Copy of UnitPrice"
+                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[unitPrice]"
+                      cachedDataType="i4"
+                      cachedName="unitPrice"
                       externalMetadataColumnId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[UnitPrice]"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of UnitPrice]" />
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[unitPrice]" />
                     <inputColumn
-                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of Unit]"
+                      refId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[unit]"
                       cachedDataType="wstr"
                       cachedLength="10"
-                      cachedName="Copy of Unit"
+                      cachedName="unit"
                       externalMetadataColumnId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Unit]"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Unit]" />
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[unit]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1144,355 +982,208 @@ WHERE        (LocationID IS NOT NULL) and (StreetNumber IS NOT NULL)</property>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Product\Data Conversion"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="Data Conversion"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Data Flow Product\Data Conversion.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Inputs[Data Conversion Input].Columns[CategoryID]"
-                      cachedDataType="r8"
-                      cachedName="CategoryID"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[CategoryID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Inputs[Data Conversion Input].Columns[ProductID]"
-                      cachedDataType="r8"
-                      cachedName="ProductID"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[ProductID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Inputs[Data Conversion Input].Columns[ProductName]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="ProductName"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[ProductName]" />
-                    <inputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Inputs[Data Conversion Input].Columns[UnitPrice]"
-                      cachedDataType="r8"
-                      cachedName="UnitPrice"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[UnitPrice]" />
-                    <inputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Inputs[Data Conversion Input].Columns[Unit]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="Unit"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[Unit]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\Data Flow Product\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CategoryID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CategoryID]"
-                      name="Copy of CategoryID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[CategoryID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ProductID]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ProductID]"
-                      name="Copy of ProductID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[ProductID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ProductName]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="25"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ProductName]"
-                      name="Copy of ProductName"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[ProductName]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of UnitPrice]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of UnitPrice]"
-                      name="Copy of UnitPrice"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[UnitPrice]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Unit]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="10"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Unit]"
-                      name="Copy of Unit"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[Unit]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\Data Flow Product\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Product\Excel Source"
-              componentClassID="Microsoft.ExcelSource"
-              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Excel Source"
-              name="Excel Source"
+              refId="Package\Data Flow Product\ADO NET Source"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="ADO NET Source"
               usesDispositions="true"
-              version="1">
+              version="4">
               <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.Int32"
                   description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
                 <property
                   dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">Sheet1$</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT        ProductID, ProductName, CategoryID, UnitPrice, Unit
-FROM            [Sheet1$]
-WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
-                <property
-                  dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."product"</property>
                 <property
                   dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
+                  description="Specify the mode to retrieve external column information"
                   name="AccessMode"
-                  typeConverter="AccessMode">2</property>
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
                 <property
                   dataType="System.String"
-                  description="The mapping from parameters in the SQL command to variables."
-                  name="ParameterMapping"></property>
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Product\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 6]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 6]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
+                  refId="Package\Data Flow Product\ADO NET Source.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.SHmart]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.SHmart]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output]"
-                  name="Excel Source Output">
+                  refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[ProductID]"
-                      dataType="r8"
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[id]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductID]"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[ProductID]"
-                      name="ProductID"
+                      externalMetadataColumnId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[id]"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[id]"
+                      name="id"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[ProductName]"
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[productName]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductName]"
-                      length="255"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[ProductName]"
-                      name="ProductName"
+                      externalMetadataColumnId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[productName]"
+                      length="25"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[productName]"
+                      name="productName"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[CategoryID]"
-                      dataType="r8"
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[categoryID]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[CategoryID]"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[CategoryID]"
-                      name="CategoryID"
+                      externalMetadataColumnId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[categoryID]"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[categoryID]"
+                      name="categoryID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[UnitPrice]"
-                      dataType="r8"
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[supplierID]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[UnitPrice]"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[UnitPrice]"
-                      name="UnitPrice"
+                      externalMetadataColumnId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[supplierID]"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[supplierID]"
+                      name="supplierID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[Unit]"
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[unitPrice]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[unitPrice]"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[unitPrice]"
+                      name="unitPrice"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[unit]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[Unit]"
-                      length="255"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].Columns[Unit]"
-                      name="Unit"
+                      externalMetadataColumnId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[unit]"
+                      length="10"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[unit]"
+                      name="unit"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[storeID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[storeID]"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].Columns[storeID]"
+                      name="storeID"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductID]"
-                      dataType="r8"
-                      name="ProductID" />
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[id]"
+                      dataType="i4"
+                      name="id" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductName]"
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[productName]"
                       dataType="wstr"
-                      length="255"
-                      name="ProductName" />
+                      length="25"
+                      name="productName" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[CategoryID]"
-                      dataType="r8"
-                      name="CategoryID" />
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[categoryID]"
+                      dataType="i4"
+                      name="categoryID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[UnitPrice]"
-                      dataType="r8"
-                      name="UnitPrice" />
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[supplierID]"
+                      dataType="i4"
+                      name="supplierID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[Unit]"
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[unitPrice]"
+                      dataType="i4"
+                      name="unitPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[unit]"
                       dataType="wstr"
-                      length="255"
-                      name="Unit" />
+                      length="10"
+                      name="unit" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[storeID]"
+                      dataType="i4"
+                      name="storeID" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output]"
+                  refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output]"
                   isErrorOut="true"
-                  name="Excel Source Error Output">
+                  name="ADO NET Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[ProductID]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[ProductID]"
-                      name="ProductID" />
-                    <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[ProductName]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[ProductName]"
-                      name="ProductName" />
-                    <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[CategoryID]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[CategoryID]"
-                      name="CategoryID" />
-                    <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[UnitPrice]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[UnitPrice]"
-                      name="UnitPrice" />
-                    <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[Unit]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[Unit]"
-                      name="Unit" />
-                    <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[id]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[id]"
+                      name="id" />
+                    <outputColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[productName]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[productName]"
+                      name="productName" />
+                    <outputColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[categoryID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[categoryID]"
+                      name="categoryID" />
+                    <outputColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[supplierID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[supplierID]"
+                      name="supplierID" />
+                    <outputColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[unitPrice]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[unitPrice]"
+                      name="unitPrice" />
+                    <outputColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[unit]"
+                      dataType="wstr"
+                      length="10"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[unit]"
+                      name="unit" />
+                    <outputColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[storeID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[storeID]"
+                      name="storeID" />
+                    <outputColumn
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1503,15 +1194,10 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
           </components>
           <paths>
             <path
-              refId="Package\Data Flow Product.Paths[Data Conversion Output]"
+              refId="Package\Data Flow Product.Paths[ADO NET Source Output]"
               endId="Package\Data Flow Product\ADO NET Destination.Inputs[ADO NET Destination Input]"
-              name="Data Conversion Output"
-              startId="Package\Data Flow Product\Data Conversion.Outputs[Data Conversion Output]" />
-            <path
-              refId="Package\Data Flow Product.Paths[Excel Source Output]"
-              endId="Package\Data Flow Product\Data Conversion.Inputs[Data Conversion Input]"
-              name="Excel Source Output"
-              startId="Package\Data Flow Product\Excel Source.Outputs[Excel Source Output]" />
+              name="ADO NET Source Output"
+              startId="Package\Data Flow Product\ADO NET Source.Outputs[ADO NET Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1520,7 +1206,6 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
       DTS:refId="Package\Data Flow Sale"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{a69ff604-a9a4-493b-8f5d-aeee8230b9d7}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1581,41 +1266,41 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[ProductID]"
-                      cachedDataType="r8"
-                      cachedName="ProductID"
+                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[productId]"
+                      cachedDataType="i4"
+                      cachedName="productId"
                       externalMetadataColumnId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ProductID]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[ProductID]" />
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[productId]" />
                     <inputColumn
-                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[StaffID]"
-                      cachedDataType="r8"
-                      cachedName="StaffID"
+                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[staffID]"
+                      cachedDataType="i4"
+                      cachedName="staffID"
                       externalMetadataColumnId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[StaffID]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[StaffID]" />
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[staffID]" />
                     <inputColumn
-                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[SupplierID]"
-                      cachedDataType="r8"
-                      cachedName="SupplierID"
+                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[supplierID]"
+                      cachedDataType="i4"
+                      cachedName="supplierID"
                       externalMetadataColumnId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[SupplierID]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[SupplierID]" />
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[supplierID]" />
                     <inputColumn
-                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[TimeID]"
-                      cachedDataType="r8"
-                      cachedName="TimeID"
+                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[timeID]"
+                      cachedDataType="i4"
+                      cachedName="timeID"
                       externalMetadataColumnId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[TimeID]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[TimeID]" />
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[timeID]" />
                     <inputColumn
-                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Quanity]"
-                      cachedDataType="r8"
-                      cachedName="Quanity"
-                      externalMetadataColumnId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Quanity]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Quanity]" />
-                    <inputColumn
-                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Amount]"
-                      cachedDataType="r8"
-                      cachedName="Amount"
+                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[amount]"
+                      cachedDataType="i4"
+                      cachedName="amount"
                       externalMetadataColumnId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Amount]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Amount]" />
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[amount]" />
+                    <inputColumn
+                      refId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[quantity]"
+                      cachedDataType="i4"
+                      cachedName="quantity"
+                      externalMetadataColumnId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Quanity]"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[quantity]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1674,386 +1359,189 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Sale\Data Conversion"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="Data Conversion"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input].Columns[Quanity]"
-                      cachedDataType="r8"
-                      cachedName="Quanity"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Quanity]" />
-                    <inputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input].Columns[TimeID]"
-                      cachedDataType="r8"
-                      cachedName="TimeID"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[TimeID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input].Columns[SupplierID]"
-                      cachedDataType="r8"
-                      cachedName="SupplierID"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[SupplierID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input].Columns[StaffID]"
-                      cachedDataType="r8"
-                      cachedName="StaffID"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[StaffID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input].Columns[ProductID]"
-                      cachedDataType="r8"
-                      cachedName="ProductID"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[ProductID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input].Columns[Amount]"
-                      cachedDataType="r8"
-                      cachedName="Amount"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Amount]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Quanity]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Quanity]"
-                      name="Copy of Quanity"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Quanity]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of TimeID]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of TimeID]"
-                      name="Copy of TimeID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[TimeID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of SupplierID]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of SupplierID]"
-                      name="Copy of SupplierID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[SupplierID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StaffID]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StaffID]"
-                      name="Copy of StaffID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[StaffID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ProductID]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ProductID]"
-                      name="Copy of ProductID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[ProductID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Amount]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Amount]"
-                      name="Copy of Amount"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Amount]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Sale\Excel Source"
-              componentClassID="Microsoft.ExcelSource"
-              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Excel Source"
-              name="Excel Source"
+              refId="Package\Data Flow Sale\ADO NET Source"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="ADO NET Source"
               usesDispositions="true"
-              version="1">
+              version="4">
               <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select od.productId, o.staffID, p.supplierID, o.timeID, od.quantity, od.quantity * p.unitPrice as amount
+from orderDetail as od
+left join product as p 
+on od.productId = p.id
+left join orders as o
+on o.id = od.orderID</property>
                 <property
                   dataType="System.Int32"
                   description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
                 <property
                   dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">Sheet1$</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
-                  dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
-                <property
                   dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
+                  description="Specify the mode to retrieve external column information"
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">2</property>
                 <property
                   dataType="System.String"
-                  description="The mapping from parameters in the SQL command to variables."
-                  name="ParameterMapping"></property>
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Sale\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 9]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 9]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
+                  refId="Package\Data Flow Sale\ADO NET Source.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.SHmart]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.SHmart]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output]"
-                  name="Excel Source Output">
+                  refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[ProductID]"
-                      dataType="r8"
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[productId]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductID]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[ProductID]"
-                      name="ProductID"
+                      externalMetadataColumnId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[productId]"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[productId]"
+                      name="productId"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[StaffID]"
-                      dataType="r8"
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[staffID]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[StaffID]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[StaffID]"
-                      name="StaffID"
+                      externalMetadataColumnId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[staffID]"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[staffID]"
+                      name="staffID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[SupplierID]"
-                      dataType="r8"
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[supplierID]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[SupplierID]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[SupplierID]"
-                      name="SupplierID"
+                      externalMetadataColumnId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[supplierID]"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[supplierID]"
+                      name="supplierID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[TimeID]"
-                      dataType="r8"
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[timeID]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[TimeID]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[TimeID]"
-                      name="TimeID"
+                      externalMetadataColumnId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[timeID]"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[timeID]"
+                      name="timeID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Quanity]"
-                      dataType="r8"
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[quantity]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[Quanity]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Quanity]"
-                      name="Quanity"
+                      externalMetadataColumnId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[quantity]"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[quantity]"
+                      name="quantity"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Amount]"
-                      dataType="r8"
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[amount]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[Amount]"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].Columns[Amount]"
-                      name="Amount"
+                      externalMetadataColumnId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[amount]"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].Columns[amount]"
+                      name="amount"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductID]"
-                      dataType="r8"
-                      name="ProductID" />
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[productId]"
+                      dataType="i4"
+                      name="productId" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[StaffID]"
-                      dataType="r8"
-                      name="StaffID" />
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[staffID]"
+                      dataType="i4"
+                      name="staffID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[SupplierID]"
-                      dataType="r8"
-                      name="SupplierID" />
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[supplierID]"
+                      dataType="i4"
+                      name="supplierID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[TimeID]"
-                      dataType="r8"
-                      name="TimeID" />
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[timeID]"
+                      dataType="i4"
+                      name="timeID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[Quanity]"
-                      dataType="r8"
-                      name="Quanity" />
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[quantity]"
+                      dataType="i4"
+                      name="quantity" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output].ExternalColumns[Amount]"
-                      dataType="r8"
-                      name="Amount" />
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[amount]"
+                      dataType="i4"
+                      name="amount" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output]"
+                  refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output]"
                   isErrorOut="true"
-                  name="Excel Source Error Output">
+                  name="ADO NET Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[ProductID]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[ProductID]"
-                      name="ProductID" />
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[StaffID]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[StaffID]"
-                      name="StaffID" />
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[SupplierID]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[SupplierID]"
-                      name="SupplierID" />
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[TimeID]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[TimeID]"
-                      name="TimeID" />
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[Quanity]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[Quanity]"
-                      name="Quanity" />
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[Amount]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[Amount]"
-                      name="Amount" />
-                    <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[productId]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[productId]"
+                      name="productId" />
+                    <outputColumn
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[staffID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[staffID]"
+                      name="staffID" />
+                    <outputColumn
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[supplierID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[supplierID]"
+                      name="supplierID" />
+                    <outputColumn
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[timeID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[timeID]"
+                      name="timeID" />
+                    <outputColumn
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[quantity]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[quantity]"
+                      name="quantity" />
+                    <outputColumn
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[amount]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[amount]"
+                      name="amount" />
+                    <outputColumn
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2064,15 +1552,10 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
           </components>
           <paths>
             <path
-              refId="Package\Data Flow Sale.Paths[Data Conversion Output]"
+              refId="Package\Data Flow Sale.Paths[ADO NET Source Output]"
               endId="Package\Data Flow Sale\ADO NET Destination.Inputs[ADO NET Destination Input]"
-              name="Data Conversion Output"
-              startId="Package\Data Flow Sale\Data Conversion.Outputs[Data Conversion Output]" />
-            <path
-              refId="Package\Data Flow Sale.Paths[Excel Source Output]"
-              endId="Package\Data Flow Sale\Data Conversion.Inputs[Data Conversion Input]"
-              name="Excel Source Output"
-              startId="Package\Data Flow Sale\Excel Source.Outputs[Excel Source Output]" />
+              name="ADO NET Source Output"
+              startId="Package\Data Flow Sale\ADO NET Source.Outputs[ADO NET Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -2081,7 +1564,6 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
       DTS:refId="Package\Data Flow Staff"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{2671ec05-9e4f-431b-905f-0a5804049943}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2142,18 +1624,18 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Staff\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[StaffID]"
-                      cachedDataType="r8"
-                      cachedName="StaffID"
-                      externalMetadataColumnId="Package\Data Flow Staff\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[StaffID]"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Staff\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[StaffName]"
+                      refId="Package\Data Flow Staff\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[staffName]"
                       cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="StaffName"
+                      cachedLength="25"
+                      cachedName="staffName"
                       externalMetadataColumnId="Package\Data Flow Staff\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[StaffName]"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffName]" />
+                      lineageId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].Columns[staffName]" />
+                    <inputColumn
+                      refId="Package\Data Flow Staff\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[id]"
+                      cachedDataType="i4"
+                      cachedName="id"
+                      externalMetadataColumnId="Package\Data Flow Staff\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[StaffID]"
+                      lineageId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].Columns[id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2195,219 +1677,115 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Staff\Data Conversion"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="Data Conversion"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Data Flow Staff\Data Conversion.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Staff\Data Conversion.Inputs[Data Conversion Input].Columns[StaffName]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="StaffName"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffName]" />
-                    <inputColumn
-                      refId="Package\Data Flow Staff\Data Conversion.Inputs[Data Conversion Input].Columns[StaffID]"
-                      cachedDataType="r8"
-                      cachedName="StaffID"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffID]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\Data Flow Staff\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StaffName]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="255"
-                      lineageId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StaffName]"
-                      name="Copy of StaffName"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffName]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StaffID]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StaffID]"
-                      name="Copy of StaffID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\Data Flow Staff\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Staff\Excel Source"
-              componentClassID="Microsoft.ExcelSource"
-              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Excel Source"
-              name="Excel Source"
+              refId="Package\Data Flow Staff\ADO NET Source"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="ADO NET Source"
               usesDispositions="true"
-              version="1">
+              version="4">
               <properties>
                 <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
                   dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">Sheet1$</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
                   dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."staff"</property>
                 <property
                   dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
+                  description="Specify the mode to retrieve external column information"
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
                 <property
                   dataType="System.String"
-                  description="The mapping from parameters in the SQL command to variables."
-                  name="ParameterMapping"></property>
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Staff\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 4]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 4]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
+                  refId="Package\Data Flow Staff\ADO NET Source.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.SHmart]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.SHmart]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output]"
-                  name="Excel Source Output">
+                  refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffID]"
-                      dataType="r8"
+                      refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].Columns[id]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].ExternalColumns[StaffID]"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffID]"
-                      name="StaffID"
+                      externalMetadataColumnId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[id]"
+                      lineageId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].Columns[id]"
+                      name="id"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffName]"
+                      refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].Columns[staffName]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].ExternalColumns[StaffName]"
-                      length="255"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].Columns[StaffName]"
-                      name="StaffName"
+                      externalMetadataColumnId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[staffName]"
+                      length="25"
+                      lineageId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].Columns[staffName]"
+                      name="staffName"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].ExternalColumns[StaffID]"
-                      dataType="r8"
-                      name="StaffID" />
+                      refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[id]"
+                      dataType="i4"
+                      name="id" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output].ExternalColumns[StaffName]"
+                      refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output].ExternalColumns[staffName]"
                       dataType="wstr"
-                      length="255"
-                      name="StaffName" />
+                      length="25"
+                      name="staffName" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Error Output]"
+                  refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Error Output]"
                   isErrorOut="true"
-                  name="Excel Source Error Output">
+                  name="ADO NET Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Error Output].Columns[StaffID]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Error Output].Columns[StaffID]"
-                      name="StaffID" />
-                    <outputColumn
-                      refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Error Output].Columns[StaffName]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Error Output].Columns[StaffName]"
-                      name="StaffName" />
-                    <outputColumn
-                      refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[id]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[id]"
+                      name="id" />
+                    <outputColumn
+                      refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[staffName]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[staffName]"
+                      name="staffName" />
+                    <outputColumn
+                      refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2418,15 +1796,10 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
           </components>
           <paths>
             <path
-              refId="Package\Data Flow Staff.Paths[Data Conversion Output]"
+              refId="Package\Data Flow Staff.Paths[ADO NET Source Output]"
               endId="Package\Data Flow Staff\ADO NET Destination.Inputs[ADO NET Destination Input]"
-              name="Data Conversion Output"
-              startId="Package\Data Flow Staff\Data Conversion.Outputs[Data Conversion Output]" />
-            <path
-              refId="Package\Data Flow Staff.Paths[Excel Source Output]"
-              endId="Package\Data Flow Staff\Data Conversion.Inputs[Data Conversion Input]"
-              name="Excel Source Output"
-              startId="Package\Data Flow Staff\Excel Source.Outputs[Excel Source Output]" />
+              name="ADO NET Source Output"
+              startId="Package\Data Flow Staff\ADO NET Source.Outputs[ADO NET Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -2435,7 +1808,6 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
       DTS:refId="Package\Data Flow Store"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{a16cc275-6c70-4567-94af-39a008525ffe}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2728,8 +2100,8 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Store\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 3]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 3]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 4]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 4]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2842,7 +2214,6 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
       DTS:refId="Package\Data Flow Supplier"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{13674ed8-4231-498d-8a42-21c9b7460085}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3135,8 +2506,8 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Supplier\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 2]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 2]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 3]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 3]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3309,41 +2680,29 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[TimeID]"
+                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of TimeID]"
                       cachedDataType="r8"
-                      cachedName="TimeID"
+                      cachedName="Copy of TimeID"
                       externalMetadataColumnId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[TimeID]"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[TimeID]" />
+                      lineageId="Package\Data Flow time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of TimeID]" />
                     <inputColumn
-                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Hour]"
+                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of Day]"
                       cachedDataType="r8"
-                      cachedName="Hour"
-                      externalMetadataColumnId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Hour]"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Hour]" />
-                    <inputColumn
-                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Minute]"
-                      cachedDataType="r8"
-                      cachedName="Minute"
-                      externalMetadataColumnId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Minute]"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Minute]" />
-                    <inputColumn
-                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Day]"
-                      cachedDataType="r8"
-                      cachedName="Day"
+                      cachedName="Copy of Day"
                       externalMetadataColumnId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Day]"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Day]" />
+                      lineageId="Package\Data Flow time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Day]" />
                     <inputColumn
-                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Month]"
+                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of Month]"
                       cachedDataType="r8"
-                      cachedName="Month"
+                      cachedName="Copy of Month"
                       externalMetadataColumnId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Month]"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Month]" />
+                      lineageId="Package\Data Flow time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Month]" />
                     <inputColumn
-                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Year]"
+                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of Year]"
                       cachedDataType="r8"
-                      cachedName="Year"
+                      cachedName="Copy of Year"
                       externalMetadataColumnId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Year]"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Year]" />
+                      lineageId="Package\Data Flow time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Year]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3351,16 +2710,6 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
                       refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[TimeID]"
                       dataType="i4"
                       name="TimeID" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Hour]"
-                      dataType="wstr"
-                      length="10"
-                      name="Hour" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Minute]"
-                      dataType="wstr"
-                      length="10"
-                      name="Minute" />
                     <externalMetadataColumn
                       refId="Package\Data Flow time\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Day]"
                       dataType="wstr"
@@ -3422,16 +2771,6 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
                       cachedName="TimeID"
                       lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[TimeID]" />
                     <inputColumn
-                      refId="Package\Data Flow time\Data Conversion.Inputs[Data Conversion Input].Columns[Hour]"
-                      cachedDataType="r8"
-                      cachedName="Hour"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Hour]" />
-                    <inputColumn
-                      refId="Package\Data Flow time\Data Conversion.Inputs[Data Conversion Input].Columns[Minute]"
-                      cachedDataType="r8"
-                      cachedName="Minute"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Minute]" />
-                    <inputColumn
                       refId="Package\Data Flow time\Data Conversion.Inputs[Data Conversion Input].Columns[Day]"
                       cachedDataType="r8"
                       cachedName="Day"
@@ -3471,46 +2810,6 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
                           name="SourceInputColumnLineageID">#{Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[TimeID]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Hour]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Hour]"
-                      name="Copy of Hour"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Hour]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Minute]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow time\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Minute]"
-                      name="Copy of Minute"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Minute]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -3629,9 +2928,7 @@ WHERE        (ProductID IS NOT NULL) AND (ProductName IS NOT NULL)</property>
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT        TimeID, [Hour], [Minute], [Day], [Month], [Year]
-FROM            [Sheet1$]
-WHERE        ([Year] IS NOT NULL)</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
                 <property
                   dataType="System.String"
                   description="The variable that contains the SQL command to be executed."
@@ -3640,7 +2937,7 @@ WHERE        ([Year] IS NOT NULL)</property>
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">2</property>
+                  typeConverter="AccessMode">0</property>
                 <property
                   dataType="System.String"
                   description="The mapping from parameters in the SQL command to variables."
@@ -3649,8 +2946,8 @@ WHERE        ([Year] IS NOT NULL)</property>
               <connections>
                 <connection
                   refId="Package\Data Flow time\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 5]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 5]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3667,24 +2964,6 @@ WHERE        ([Year] IS NOT NULL)</property>
                       externalMetadataColumnId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].ExternalColumns[TimeID]"
                       lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[TimeID]"
                       name="TimeID"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Hour]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].ExternalColumns[Hour]"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Hour]"
-                      name="Hour"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Minute]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].ExternalColumns[Minute]"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Minute]"
-                      name="Minute"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].Columns[Day]"
@@ -3721,14 +3000,6 @@ WHERE        ([Year] IS NOT NULL)</property>
                       dataType="r8"
                       name="TimeID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].ExternalColumns[Hour]"
-                      dataType="r8"
-                      name="Hour" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].ExternalColumns[Minute]"
-                      dataType="r8"
-                      name="Minute" />
-                    <externalMetadataColumn
                       refId="Package\Data Flow time\Excel Source.Outputs[Excel Source Output].ExternalColumns[Day]"
                       dataType="r8"
                       name="Day" />
@@ -3752,16 +3023,6 @@ WHERE        ([Year] IS NOT NULL)</property>
                       dataType="r8"
                       lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Error Output].Columns[TimeID]"
                       name="TimeID" />
-                    <outputColumn
-                      refId="Package\Data Flow time\Excel Source.Outputs[Excel Source Error Output].Columns[Hour]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Error Output].Columns[Hour]"
-                      name="Hour" />
-                    <outputColumn
-                      refId="Package\Data Flow time\Excel Source.Outputs[Excel Source Error Output].Columns[Minute]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow time\Excel Source.Outputs[Excel Source Error Output].Columns[Minute]"
-                      name="Minute" />
                     <outputColumn
                       refId="Package\Data Flow time\Excel Source.Outputs[Excel Source Error Output].Columns[Day]"
                       dataType="r8"
@@ -3814,7 +3075,6 @@ WHERE        ([Year] IS NOT NULL)</property>
       DTS:refId="Package\Data Flow Work"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{c70c4ebc-aa82-4d74-8c50-3d9a5f3c316c}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3875,29 +3135,23 @@ WHERE        ([Year] IS NOT NULL)</property>
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[StaffID]"
+                      refId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of StaffID]"
                       cachedDataType="r8"
-                      cachedName="StaffID"
+                      cachedName="Copy of StaffID"
                       externalMetadataColumnId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[StaffID]"
-                      lineageId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].Columns[StaffID]" />
+                      lineageId="Package\Data Flow Work\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StaffID]" />
                     <inputColumn
-                      refId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[StoreID]"
+                      refId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of StoreID]"
                       cachedDataType="r8"
-                      cachedName="StoreID"
+                      cachedName="Copy of StoreID"
                       externalMetadataColumnId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[StoreID]"
-                      lineageId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].Columns[StoreID]" />
+                      lineageId="Package\Data Flow Work\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of StoreID]" />
                     <inputColumn
-                      refId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[TimeID]"
+                      refId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Copy of TimeID]"
                       cachedDataType="r8"
-                      cachedName="TimeID"
+                      cachedName="Copy of TimeID"
                       externalMetadataColumnId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[TimeID]"
-                      lineageId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].Columns[TimeID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[WorkTime]"
-                      cachedDataType="r8"
-                      cachedName="WorkTime"
-                      externalMetadataColumnId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[WorkTime]"
-                      lineageId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].Columns[WorkTime]" />
+                      lineageId="Package\Data Flow Work\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of TimeID]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -3913,11 +3167,6 @@ WHERE        ([Year] IS NOT NULL)</property>
                       refId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[TimeID]"
                       dataType="i4"
                       name="TimeID" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Work\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[WorkTime]"
-                      dataType="wstr"
-                      length="10"
-                      name="WorkTime" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3959,11 +3208,6 @@ WHERE        ([Year] IS NOT NULL)</property>
                   name="Data Conversion Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Work\Data Conversion.Inputs[Data Conversion Input].Columns[WorkTime]"
-                      cachedDataType="r8"
-                      cachedName="WorkTime"
-                      lineageId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].Columns[WorkTime]" />
-                    <inputColumn
                       refId="Package\Data Flow Work\Data Conversion.Inputs[Data Conversion Input].Columns[TimeID]"
                       cachedDataType="r8"
                       cachedName="TimeID"
@@ -3989,26 +3233,6 @@ WHERE        ([Year] IS NOT NULL)</property>
                   name="Data Conversion Output"
                   synchronousInputId="Package\Data Flow Work\Data Conversion.Inputs[Data Conversion Input]">
                   <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Work\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of WorkTime]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Work\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of WorkTime]"
-                      name="Copy of WorkTime"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].Columns[WorkTime]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Work\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of TimeID]"
                       dataType="r8"
@@ -4132,7 +3356,7 @@ WHERE        (TimeID IS NOT NULL)</property>
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">2</property>
+                  typeConverter="AccessMode">0</property>
                 <property
                   dataType="System.String"
                   description="The mapping from parameters in the SQL command to variables."
@@ -4141,8 +3365,8 @@ WHERE        (TimeID IS NOT NULL)</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Work\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 8]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 8]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4178,15 +3402,6 @@ WHERE        (TimeID IS NOT NULL)</property>
                       lineageId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].Columns[TimeID]"
                       name="TimeID"
                       truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].Columns[WorkTime]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].ExternalColumns[WorkTime]"
-                      lineageId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].Columns[WorkTime]"
-                      name="WorkTime"
-                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4202,10 +3417,6 @@ WHERE        (TimeID IS NOT NULL)</property>
                       refId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].ExternalColumns[TimeID]"
                       dataType="r8"
                       name="TimeID" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Output].ExternalColumns[WorkTime]"
-                      dataType="r8"
-                      name="WorkTime" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -4228,11 +3439,6 @@ WHERE        (TimeID IS NOT NULL)</property>
                       dataType="r8"
                       lineageId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Error Output].Columns[TimeID]"
                       name="TimeID" />
-                    <outputColumn
-                      refId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Error Output].Columns[WorkTime]"
-                      dataType="r8"
-                      lineageId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Error Output].Columns[WorkTime]"
-                      name="WorkTime" />
                     <outputColumn
                       refId="Package\Data Flow Work\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
@@ -4744,77 +3950,47 @@ WHERE        (TimeID IS NOT NULL)</property>
     design-time-name="Package\Data Flow Category">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Data Flow Category\Data Conversion"
-          TopLeft="228,236" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="186,42"
           Id="Package\Data Flow Category\ADO NET Destination"
           TopLeft="212,346" />
         <NodeLayout
-          Size="144,42"
-          Id="Package\Data Flow Category\Excel Source"
-          TopLeft="315,113" />
+          Size="166,42"
+          Id="Package\Data Flow Category\ADO NET Source"
+          TopLeft="578,139" />
         <EdgeLayout
-          Id="Package\Data Flow Category.Paths[Excel Source Output]"
-          TopLeft="387,155">
+          Id="Package\Data Flow Category.Paths[ADO NET Source Output]"
+          TopLeft="661,181">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-78.5,81"
+              EndConnector="-356,165"
               Start="0,0"
-              End="-78.5,73.5">
+              End="-356,157.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.5" />
+                    End="0,78.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,36.5"
-                    Point2="0,40.5"
-                    Point3="-4,40.5" />
+                    Point1="0,78.5"
+                    Point2="0,82.5"
+                    Point3="-4,82.5" />
                   <mssgle:LineSegment
-                    End="-74.5,40.5" />
+                    End="-352,82.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-74.5,40.5"
-                    Point2="-78.5,40.5"
-                    Point3="-78.5,44.5" />
+                    Point1="-352,82.5"
+                    Point2="-356,82.5"
+                    Point3="-356,86.5" />
                   <mssgle:LineSegment
-                    End="-78.5,73.5" />
+                    End="-356,157.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Category.Paths[Data Conversion Output]"
-          TopLeft="306.75,278">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68"
-              Start="0,0"
-              End="0,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4825,19 +4001,6 @@ WHERE        (TimeID IS NOT NULL)</property>
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Category\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -4858,28 +4021,6 @@ WHERE        (TimeID IS NOT NULL)</property>
           Size="161,42"
           Id="Package\Data Flow Location\Data Conversion"
           TopLeft="228,236" />
-        <EdgeLayout
-          Id="Package\Data Flow Location.Paths[Data Conversion Output]"
-          TopLeft="307.25,278">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,65"
-              Start="0,0"
-              End="0,57.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,57.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Location.Paths[Excel Source Output]"
           TopLeft="387,155">
@@ -4906,6 +4047,28 @@ WHERE        (TimeID IS NOT NULL)</property>
                     Point3="-78.5,44.5" />
                   <mssgle:LineSegment
                     End="-78.5,73.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Location.Paths[Data Conversion Output]"
+          TopLeft="307.25,278">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65"
+              Start="0,0"
+              End="0,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4942,79 +4105,41 @@ WHERE        (TimeID IS NOT NULL)</property>
     design-time-name="Package\Data Flow Product">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="144,42"
-          Id="Package\Data Flow Product\Excel Source"
-          TopLeft="315,113" />
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Data Flow Product\Data Conversion"
-          TopLeft="297,260" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="186,42"
           Id="Package\Data Flow Product\ADO NET Destination"
           TopLeft="212,346" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Data Flow Product\ADO NET Source"
+          TopLeft="306,176" />
         <EdgeLayout
-          Id="Package\Data Flow Product.Paths[Excel Source Output]"
-          TopLeft="387,155">
+          Id="Package\Data Flow Product.Paths[ADO NET Source Output]"
+          TopLeft="389,218">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-9.5,105"
+              EndConnector="-84,128"
               Start="0,0"
-              End="-9.5,97.5">
+              End="-84,120.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,48.5" />
+                    End="0,60" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,48.5"
-                    Point2="0,52.5"
-                    Point3="-4,52.5" />
+                    Point1="0,60"
+                    Point2="0,64"
+                    Point3="-4,64" />
                   <mssgle:LineSegment
-                    End="-5.5,52.5" />
+                    End="-80,64" />
                   <mssgle:CubicBezierSegment
-                    Point1="-5.5,52.5"
-                    Point2="-9.5,52.5"
-                    Point3="-9.5,56.5" />
+                    Point1="-80,64"
+                    Point2="-84,64"
+                    Point3="-84,68" />
                   <mssgle:LineSegment
-                    End="-9.5,97.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Product.Paths[Data Conversion Output]"
-          TopLeft="377.5,302">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-72.5,44"
-              Start="0,0"
-              End="-72.5,36.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18"
-                    Point2="0,22"
-                    Point3="-4,22" />
-                  <mssgle:LineSegment
-                    End="-68.5,22" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-68.5,22"
-                    Point2="-72.5,22"
-                    Point3="-72.5,26" />
-                  <mssgle:LineSegment
-                    End="-72.5,36.5" />
+                    End="-84,120.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5026,19 +4151,6 @@ WHERE        (TimeID IS NOT NULL)</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Product\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow Product\ADO NET Destination">
     <Properties>
@@ -5051,67 +4163,41 @@ WHERE        (TimeID IS NOT NULL)</property>
     design-time-name="Package\Data Flow Sale">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="161,42"
-          Id="Package\Data Flow Sale\Data Conversion"
-          TopLeft="228,236" />
+          Size="166,42"
+          Id="Package\Data Flow Sale\ADO NET Source"
+          TopLeft="414,151" />
         <NodeLayout
           Size="186,42"
           Id="Package\Data Flow Sale\ADO NET Destination"
-          TopLeft="212,346" />
-        <NodeLayout
-          Size="144,42"
-          Id="Package\Data Flow Sale\Excel Source"
-          TopLeft="315,113" />
+          TopLeft="425,290" />
         <EdgeLayout
-          Id="Package\Data Flow Sale.Paths[Excel Source Output]"
-          TopLeft="387,155">
+          Id="Package\Data Flow Sale.Paths[ADO NET Source Output]"
+          TopLeft="497,193">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-78.5,81"
+              EndConnector="21,97"
               Start="0,0"
-              End="-78.5,73.5">
+              End="21,89.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.5" />
+                    End="0,44.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,36.5"
-                    Point2="0,40.5"
-                    Point3="-4,40.5" />
+                    Point1="0,44.5"
+                    Point2="0,48.5"
+                    Point3="4,48.5" />
                   <mssgle:LineSegment
-                    End="-74.5,40.5" />
+                    End="17,48.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-74.5,40.5"
-                    Point2="-78.5,40.5"
-                    Point3="-78.5,44.5" />
+                    Point1="17,48.5"
+                    Point2="21,48.5"
+                    Point3="21,52.5" />
                   <mssgle:LineSegment
-                    End="-78.5,73.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Sale.Paths[Data Conversion Output]"
-          TopLeft="306.75,278">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68"
-              Start="0,0"
-              End="0,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.5" />
+                    End="21,89.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5123,92 +4209,45 @@ WHERE        (TimeID IS NOT NULL)</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Sale\ADO NET Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Sale\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Data Flow Staff">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="161,42"
-          Id="Package\Data Flow Staff\Data Conversion"
-          TopLeft="228,236" />
+          Size="166,42"
+          Id="Package\Data Flow Staff\ADO NET Source"
+          TopLeft="684,175" />
         <NodeLayout
           Size="186,42"
           Id="Package\Data Flow Staff\ADO NET Destination"
-          TopLeft="212,346" />
-        <NodeLayout
-          Size="144,42"
-          Id="Package\Data Flow Staff\Excel Source"
-          TopLeft="315,113" />
+          TopLeft="423,278" />
         <EdgeLayout
-          Id="Package\Data Flow Staff.Paths[Excel Source Output]"
-          TopLeft="387,155">
+          Id="Package\Data Flow Staff.Paths[ADO NET Source Output]"
+          TopLeft="767,217">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-78.5,81"
+              EndConnector="-251,61"
               Start="0,0"
-              End="-78.5,73.5">
+              End="-251,53.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.5" />
+                    End="0,26.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,36.5"
-                    Point2="0,40.5"
-                    Point3="-4,40.5" />
+                    Point1="0,26.5"
+                    Point2="0,30.5"
+                    Point3="-4,30.5" />
                   <mssgle:LineSegment
-                    End="-74.5,40.5" />
+                    End="-247,30.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-74.5,40.5"
-                    Point2="-78.5,40.5"
-                    Point3="-78.5,44.5" />
+                    Point1="-247,30.5"
+                    Point2="-251,30.5"
+                    Point3="-251,34.5" />
                   <mssgle:LineSegment
-                    End="-78.5,73.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Staff.Paths[Data Conversion Output]"
-          TopLeft="306.75,278">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68"
-              Start="0,0"
-              End="0,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.5" />
+                    End="-251,53.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5220,32 +4259,11 @@ WHERE        (TimeID IS NOT NULL)</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Staff\ADO NET Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Staff\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Data Flow Store">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="161,42"
           Id="Package\Data Flow Store\Data Conversion"
@@ -5289,9 +4307,7 @@ WHERE        (TimeID IS NOT NULL)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5313,9 +4329,7 @@ WHERE        (TimeID IS NOT NULL)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -5452,44 +4466,6 @@ WHERE        (TimeID IS NOT NULL)</property>
           Size="186,42"
           Id="Package\Data Flow time\ADO NET Destination"
           TopLeft="212,346" />
-        <NodeLayout
-          Size="144,42"
-          Id="Package\Data Flow time\Excel Source"
-          TopLeft="315,113" />
-        <EdgeLayout
-          Id="Package\Data Flow time.Paths[Excel Source Output]"
-          TopLeft="387,155">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-78.5,81"
-              Start="0,0"
-              End="-78.5,73.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.5"
-                    Point2="0,40.5"
-                    Point3="-4,40.5" />
-                  <mssgle:LineSegment
-                    End="-74.5,40.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-74.5,40.5"
-                    Point2="-78.5,40.5"
-                    Point3="-78.5,44.5" />
-                  <mssgle:LineSegment
-                    End="-78.5,73.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow time.Paths[Data Conversion Output]"
           TopLeft="306.75,278">
@@ -5512,6 +4488,44 @@ WHERE        (TimeID IS NOT NULL)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="144,42"
+          Id="Package\Data Flow time\Excel Source"
+          TopLeft="251,110" />
+        <EdgeLayout
+          Id="Package\Data Flow time.Paths[Excel Source Output]"
+          TopLeft="323,152">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-14.5,84"
+              Start="0,0"
+              End="-14.5,76.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38"
+                    Point2="0,42"
+                    Point3="-4,42" />
+                  <mssgle:LineSegment
+                    End="-10.5,42" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-10.5,42"
+                    Point2="-14.5,42"
+                    Point3="-14.5,46" />
+                  <mssgle:LineSegment
+                    End="-14.5,76.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -5523,28 +4537,11 @@ WHERE        (TimeID IS NOT NULL)</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow time\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Data Flow Work">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Data Flow Work\Data Conversion"
-          TopLeft="228,236" />
         <NodeLayout
           Size="186,42"
           Id="Package\Data Flow Work\ADO NET Destination"
@@ -5553,6 +4550,10 @@ WHERE        (TimeID IS NOT NULL)</property>
           Size="144,42"
           Id="Package\Data Flow Work\Excel Source"
           TopLeft="315,113" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Data Flow Work\Data Conversion"
+          TopLeft="228,236" />
         <EdgeLayout
           Id="Package\Data Flow Work.Paths[Excel Source Output]"
           TopLeft="387,155">
@@ -5630,6 +4631,67 @@ WHERE        (TimeID IS NOT NULL)</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow time\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Staff\ADO NET Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Staff\ADO NET Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Category\ADO NET Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Product\ADO NET Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Sale\ADO NET Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Sale\ADO NET Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
